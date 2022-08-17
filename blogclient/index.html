@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="shortcut icon" href="./static/images/favicon.png" />
+  <meta name="description" content="我已经等不到夏天了。就算拨开人群，也想去见你。" />
+  <meta name="renderer" content="webkit" />
+  <meta property="og:description" content="萤火之森,Thezero的个人博客" />
+  <meta name="keywords" content="Thezero的个人博客,Thezero萤火之森,Thezero,个人博客,萤火之森,思维导图笔记" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:title" content="萤火之森,Thezero个人博客" />
+  <meta property="og:site_name" content="萤火之森,Thezero个人博客" />
+  <meta property="og:url" content="https://blog.xkongkeji.com" />
+  <meta name="Author" content="Thezero" />
+  <title>萤火之森-Thezero个人博客</title>
+  <link href="https://cdn.bootcss.com/github-markdown-css/2.10.0/github-markdown.min.css" rel="stylesheet">
+  <style>
+    .loading-box {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #fff;
+    }
+
+    .loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 40px;
+    }
+
+    .loading span {
+      display: inline-block;
+      width: 8px;
+      height: 100%;
+      border-radius: 4px;
+      background: lightgreen;
+      animation: load 1s ease infinite;
+    }
+
+    @keyframes load {
+
+      0%,
+      100% {
+        height: 40px;
+        background: lightgreen;
+      }
+
+      50% {
+        height: 70px;
+        margin: -15px 0;
+        background: lightblue;
+      }
+    }
+
+    .loading span:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .loading span:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    .loading span:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+
+    .loading span:nth-child(5) {
+      animation-delay: 0.8s;
+    }
+  </style>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?b898980dd48374310fe64188990eaaab";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="loading-box">
+      <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
